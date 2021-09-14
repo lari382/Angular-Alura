@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bite-bank';
+  transferencia:any;
+
+  transferir($event: any){
+    console.log($event);
+    this.transferencia = $event;
+
+  }
 }
